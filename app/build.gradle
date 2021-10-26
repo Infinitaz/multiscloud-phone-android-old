@@ -6,7 +6,7 @@ plugins {
 }
 
 static def getPackageName() {
-    return "org.linphone"
+    return "com.infinitaz.multiscloudphone"
 }
 
 def firebaseEnabled = new File(projectDir.absolutePath +'/google-services.json').exists()
